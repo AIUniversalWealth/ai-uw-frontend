@@ -8,10 +8,10 @@ import { getFirestore } from "firebase/firestore"; // Falls du eine Datenbank br
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCodcOliPJ4uhFsPjV4FUH9W6OSRH8xg",
-  authDomain: "ai-universal-wealth.firebaseapp.com",
+  apiKey: "AIzaSyCodcOlipJ1T4uhFsPjV4FUH9W60SRH8xg",
+  authDomain: "ai-uw.com",
   projectId: "ai-universal-wealth",
-  storageBucket: "ai-universal-wealth.appspot.com",
+  storageBucket: "ai-universal-wealth.appspot.com", // optional ändern
   messagingSenderId: "332578445860",
   appId: "1:332578445860:web:82226bcb6de68b2d5256b1"
 };
