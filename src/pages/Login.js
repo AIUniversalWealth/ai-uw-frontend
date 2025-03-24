@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { signInWithEmailAndPassword, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
+import { signInWithRedirect, GoogleAuthProvider } from "firebase/auth";
 import { auth } from "../firebase.js"; // Stelle sicher, dass du Firebase richtig konfiguriert hast
 import { useNavigate } from "react-router-dom";
 
