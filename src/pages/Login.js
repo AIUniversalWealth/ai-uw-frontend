@@ -21,7 +21,7 @@ const Login = () => {
   const handleGoogleLogin = async () => {
     const provider = new GoogleAuthProvider();
     try {
-      await signInWithPopup(auth, provider);
+      await signInWithRedirect(auth, provider);
       navigate("/dashboard");
     } catch (error) {
       console.error("Google Login failed:", error.message);
