@@ -1,13 +1,12 @@
-// src/pages/Dashboard.js
 import React from "react";
 
-const Dashboard = () => {
+function Dashboard() {
   return (
     <div>
-      <h1>Willkommen im Dashboard!</h1>
+      <h2>Willkommen im Dashboard!</h2>
       <p>Du bist erfolgreich eingeloggt.</p>
     </div>
   );
-};
+}
 
 export default Dashboard;
